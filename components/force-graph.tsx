@@ -711,7 +711,7 @@ export function ForceGraph({ simulationParams, onDayChange, initialDay = 1, onSi
 
         // SIRS model: Recovered can become susceptible again (with low probability)
         if (newNodes[i].status === "recovered") {
-          if (Math.random() < 0.01) {
+          if (Math.random() < reinfectionProbability) {
             newNodes[i].status = "susceptible"
             newNodes[i].day = newDay
           }
