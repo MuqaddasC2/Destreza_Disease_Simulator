@@ -188,7 +188,7 @@ export function Home({
                         label="Population Size"
                         value={simulationParams.populationSize}
                         min={100}
-                        max={10000}
+                        max={2500}
                         step={100}
                         onChange={(value) => updateParam("populationSize", value)}
                         tooltipContent="The total number of individuals in the simulated population. Larger populations provide more realistic results but require more computational resources."
