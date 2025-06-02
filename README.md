@@ -15,7 +15,7 @@ Explore the full project details in the official Beamer presentation:
 
 - **Interactive Parameter Adjustments**: Allows real-time tweaking of parameters such as R₀ (0.1–10), vaccination rates (0–1), and social distancing (0–1).
 
-![Simulation Parameters dashboard showing disease parameters controlled by the user](Destreza_SimulationParams.png)
+![Simulation Parameters dashboard showing disease parameters controlled by the user](screenshots/Destreza_SimulationParams.png)
 
 - **Hybrid SEIRD/S Disease Model**: Uses a hybrid of SEIRD and SIRS models by allowing a Recovered individual to either become re-Susceptible or Deceased based on carefully calculated probabilities. Simulates disease dynamics with five compartments, incorporating incubation periods, recovery rates, and mortality.
 - **Custom Barabási-Albert Network Generation**: Implements an optimized Fenwick Tree algorithm for efficient preferential attachment, enabling simulations of large-scale networks in O(N log N) time.
@@ -29,7 +29,7 @@ Explore the full project details in the official Beamer presentation:
 
 - **Real-Time Statistics**: Displays current counts of susceptible, exposed, infectious, recovered, and deceased individuals, alongside historical data.
 
-![Simulation Parameters dashboard showing disease parameters controlled by the user](Destreza_Statistics.png)
+![Statistical analysis view with multiple chart types](screenshots/Destreza_Statistics.png)
 
 - **SVG and Canvas Rendering**: Supports SVG for detailed visualizations and Canvas for high-performance rendering of large networks.
 - **Zoom, Pan, and Rotation Controls**: Provides an interactive interface to explore the network.
