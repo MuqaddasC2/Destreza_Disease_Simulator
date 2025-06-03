@@ -6,6 +6,8 @@ This project allows users to adjust epidemiological parameters and visualize dis
 
 ![Landing page](screenshots/Destreza_LandingPage1.png)
 
+This project was evolved from an initial UI/UX prototype, which can be found [here](https://github.com/Sys-Omertosa/Destreza_Prototype)
+
 ## Presentation
 
 Explore the full project details in the official Beamer presentation:  
